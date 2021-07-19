@@ -1,0 +1,148 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15rem;
+}
+
+/* Main elements rules */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    border: 0.1px solid #ddd;
+    border-radius: 30px;
+
+}
+
+.logo {
+    width: auto;
+}
+
+form {
+    width: auto;
+    max-width: 584px;
+    padding: 2rem;
+    padding-top: 0;
+}
+
+.buttons {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.4rem;
+
+}
+
+.mic-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.search-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 1rem;
+}
+
+.search-input {
+    width: 90%;
+    font-size: 1.6rem;
+}
+
+.search-button {
+
+    min-width: 54px;
+    height: 36px;
+    padding: 0 2rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 0.7rem;
+    background-color: var(--button-search-background);
+    color: var(--button-search-font);
+    font-size: 1.4rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.rem;
+}
+
+/* NAVBAR SECTION */
+.avatar {
+    width: 2.4rem;
+}
+
+nav {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.nav-link {
+    margin-right: 1.5rem;
+    opacity: 0.90;
+}
+
+/* FOOTER */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.4rem;
+}
+
+.left-section,
+.right-section {
+    display: flex;
+    padding-right: 2rem;
+}
+
+.footer-link {
+    padding: 1rem 1rem 1rem 3rem;
+}
