@@ -1,0 +1,1 @@
+The assignment that I built for the Odin project "Foundations" section
